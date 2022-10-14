@@ -15,11 +15,11 @@
 
 
  
- - name: download composer installer
-     get_url:
-       url: https://getcomposer.org/installer
-     dest: /tmp/composer
+#  - name: download composer installer
+#      get_url:
+#        url: https://getcomposer.org/installer
+#      dest: /tmp/composer
 
- - name: install composer
-     shell: php /tmp/composer --install-dir=/usr/local/bin
-     become: yes
+#  - name: install composer
+#      shell: php /tmp/composer --install-dir=/usr/local/bin
+#      become: yes
